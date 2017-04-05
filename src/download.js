@@ -59,7 +59,6 @@ function Downloader(config) {
   this.getFile = function(url, cb) {
     // provides the file path to caller.
     app.findInCache(url, function(err, path) {
-      console.log(err);
       if (!err) {
         cb(err, path);
         return;
