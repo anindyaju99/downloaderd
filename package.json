@@ -1,0 +1,16 @@
+{
+  "name": "downloaderd",
+  "version": "0.0.1",
+  "description": "downloader-d is a proxy for downloading and caching files. Only http get paths supported.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anindyaju99",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "uuid-1345": "^0.99.6"
+  }
+}
